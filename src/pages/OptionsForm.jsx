@@ -46,7 +46,7 @@ const OptionsForm = () => {
 
     return (
         <>
-            <div className="flex flex-col items-center justify-center mt-5">
+            <div className="flex flex-col items-center justify-center p-5">
                 <h2 className="text-4xl font-bold text-[#ef476f] drop-shadow-md mb-6 mt-5 text-center">
                     💌 Suggest a New <span className="text-[#ff8fab]" style={{fontFamily: "'Margarine"}}>Flavour</span> ! 💌
                 </h2>
@@ -88,13 +88,19 @@ const OptionsForm = () => {
                 </form>
 
                 <span className="text-green-600 mt-4">{result}</span>
-            </div>
 
-            <div className="flex h-[20vh] items-end">
+                <div className="flex h-[10vh] items-end">
                 <p className="max-w-3xl text-center mt-4 mx-auto text-md text-gray-600 italic">
                     Designed with love, pink frosting, and sprinkles &lt;3
                 </p>
+                </div>
             </div>
+
+            {/* <div className="flex h-[20vh] items-end">
+                <p className="max-w-3xl text-center mt-4 mx-auto text-md text-gray-600 italic">
+                    Designed with love, pink frosting, and sprinkles &lt;3
+                </p>
+            </div> */}
         </>
     );
 };

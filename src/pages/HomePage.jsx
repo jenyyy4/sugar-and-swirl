@@ -31,10 +31,10 @@ const HomePage = () => {
                 <img src="logo.png" className="w-15 block ml-0 text-left"/>
             </div>
 
-            <div>
-            <p className="max-w-3xl mx-auto text-lg text-gray-700">
-                Craving a sweet treat? Order your *own* cozy little bakery spread right here! 🎀  <br/>
-            </p><br/>
+            <div className="pr-5 pl-5">
+                <p className="max-w-3xl mx-auto text-lg text-gray-700">
+                    Craving a sweet treat? Order your *own* cozy little bakery spread right here! 🎀  <br/>
+                </p><br/>
 
                 <p className="max-w-3xl mx-auto text-lg text-gray-700">
                     Welcome to <span className="font-semibold text-[#ff8fab]">Sugar & Swirl</span> — a sweet little corner where you get to build your dream dessert plate!
