@@ -4,7 +4,7 @@
 
 ---
 
-> _created with love and sugar by @jenyyy4_
+> _✨ created with love and sugar by @jenyyy4 ✨_
 
 ---
 
