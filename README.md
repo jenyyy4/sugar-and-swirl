@@ -30,6 +30,90 @@
 
 ---
 
+## ☆ Prerequisites ☆
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- [Git](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/) or another editor
+
+---
+
+## ☆ Setup ☆
+
+### Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/jenyyy4/PixieCycle.git
+
+2. **Navigate to the Project Directory**:
+
+   ```bash
+   cd PixieCycle
+
+3. **Install Dependencies**:
+
+   ```bash
+   npm install
+
+4. **Start the Application**:
+
+   ```bash
+   npm run dev
+
+### Tailwind CSS Setup
+
+1. **Install Tailwind**:
+
+   ```bash
+   npm install tailwindcss @tailwindcss/vite
+
+2. **Edit vite.config.js**:
+
+   ```
+    import { defineConfig } from 'vite'
+    import tailwindcss from '@tailwindcss/vite' // added line
+    export default defineConfig({
+      plugins: [
+        tailwindcss(), // added line
+      ],
+    })
+   ```
+   
+3. **Add to index.css**:
+
+   ```
+   @import "tailwindcss";
+   ```
+
+4. **Start the Application**:
+
+   ```
+   npm run dev
+   ```
+
+### Firebase Setup
+
+#### Create a Firebase Project
+
+1. Go to the [Firebase Console](https://console.firebase.google.com/).
+2. Click **"Add Project"**.
+3. Follow the setup wizard (you can skip Google Analytics if not needed).
+4. Once created, you'll be redirected to the project dashboard.
+
+#### Enable Authentication
+
+1. In the Firebase console, go to **Build > Authentication**.
+2. Click **"Get Started"**.
+3. Under the **Sign-in Method** tab:
+   - Enable **Email/Password** authentication.
+   - Optionally, enable **Google Sign-In**.
+
+---
+
 ## ☆ Screenshots ☆
 
 ### Landing Page
