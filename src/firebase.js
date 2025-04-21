@@ -1,8 +1,9 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+const apiKey = import.meta.env.VITE_FIREBASE_API_KEY;
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBm5VoKxIAEHPWwaOpbqo6UxuZvD_QLfwU",
+    apiKey: apiKey,
     authDomain: "sugar-and-swirl.firebaseapp.com",
     projectId: "sugar-and-swirl",
     storageBucket: "sugar-and-swirl.firebasestorage.app",
